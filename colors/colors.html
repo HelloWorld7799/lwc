@@ -1,0 +1,12 @@
+<template>
+  <lightning-card variant="Narrow" title="Colors" icon-name="standard:account">
+    <div class="class1">
+      <template for:each={fruits} for:item="fruit">
+        <div key={fruit.id} class="class4">
+          <p class="class3">{fruit.name}</p>
+          <p class="class2">{fruit.color}</p>
+        </div>
+      </template>
+    </div>
+  </lightning-card>
+</template>
